@@ -30,6 +30,8 @@ class Queue:
             return None
         self.length -= 1
         dequed = self.__head
+        if self.length == 0:
+            self.__tail = None
         dequed.next = None
         self.__head = self.__head.next
         return dequed.value
