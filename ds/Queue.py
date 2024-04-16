@@ -36,5 +36,5 @@ class Queue:
         self.__head = self.__head.next
         return dequed.value
 
-    def peek(self) -> Node | None:
-        return self.head if self.head else None
+    def peek(self) -> any | None:
+        return self.__head.value if self.__head else None
