@@ -18,5 +18,5 @@ class Solution(object):
 
 
 if __name__ == '__main__':
-    print(Solution().countStudents([1,1,0,0]))
-    #print(Solution().countStudents([1,1,1,0,0,1]))
+    print(Solution().countStudents([1, 1, 0, 0]))
+    # print(Solution().countStudents([1,1,1,0,0,1]))

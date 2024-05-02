@@ -7,6 +7,8 @@ class Node:
         self.prev = None
 
 # FIFO
+
+
 class Stack:
     __head: Node
     length: int
@@ -30,7 +32,7 @@ class Stack:
         self.length -= 1
         popped = self.__head
         popped.prev = None
-        self.__head = self.__head.prev 
+        self.__head = self.__head.prev
         return popped.value
 
     def peek(self) -> any | None:

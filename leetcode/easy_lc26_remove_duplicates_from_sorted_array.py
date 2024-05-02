@@ -6,13 +6,13 @@ class Solution(object):
         """
         n = len(nums)
         index = 1
-        for i in range(1,n):
+        for i in range(1, n):
             if nums[i] != nums[i-1]:
                 nums[index] = nums[i]
-                index+=1
+                index += 1
         print(nums)
         return index
 
 
 if __name__ == '__main__':
-    print(Solution().removeDuplicates([0,0,1,1,1,2,2,3,3,4]))
+    print(Solution().removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4]))

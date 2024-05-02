@@ -11,7 +11,8 @@ class Solution(object):
                 counter[nums[i]] = 0
             counter[nums[i]] += 1
             if counter[nums[i]] > majority:
-              return nums[i]
-        
+                return nums[i]
+
+
 if __name__ == '__main__':
-    print(Solution().majorityElement([3,2,3]))
+    print(Solution().majorityElement([3, 2, 3]))

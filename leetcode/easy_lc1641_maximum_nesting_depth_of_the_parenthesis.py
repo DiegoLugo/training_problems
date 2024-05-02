@@ -21,5 +21,5 @@ class Solution(object):
 
 
 if __name__ == '__main__':
-    #print(Solution().maxDepth("(1+(2*3)+((8)/4))+1D"))
+    # print(Solution().maxDepth("(1+(2*3)+((8)/4))+1D"))
     print(Solution().maxDepth("8*((1*(5+6))*(8/6))"))

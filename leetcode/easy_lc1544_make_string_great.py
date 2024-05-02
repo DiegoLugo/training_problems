@@ -16,4 +16,4 @@ class Solution(object):
 
 if __name__ == '__main__':
     print(Solution().makeGood("abBAcC"))
-    #print(Solution().makeGood("leEeetcode"))
+    # print(Solution().makeGood("leEeetcode"))

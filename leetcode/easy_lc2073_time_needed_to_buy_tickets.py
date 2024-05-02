@@ -14,17 +14,18 @@ class Solution(object):
             if tickets[k] == 0:
                 break
             else:
-              curr = tickets.pop(0)
-              if curr > 0:
-                  curr -= 1
-                  time += 1
-                  tickets.append(curr)
-              if k > 0:
-                  k -= 1
-              else:
-                  k = len(tickets) - 1
+                curr = tickets.pop(0)
+                if curr > 0:
+                    curr -= 1
+                    time += 1
+                    tickets.append(curr)
+                if k > 0:
+                    k -= 1
+                else:
+                    k = len(tickets) - 1
         return time
 
+
 if __name__ == '__main__':
-    print(Solution().timeRequiredToBuy([2,3,2], 2))
-    #print(Solution().timeRequiredToBuy([5,1,1,1], 0))
+    print(Solution().timeRequiredToBuy([2, 3, 2], 2))
+    # print(Solution().timeRequiredToBuy([5,1,1,1], 0))

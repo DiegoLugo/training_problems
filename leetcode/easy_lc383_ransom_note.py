@@ -12,5 +12,6 @@ class Solution(object):
                 magazine = magazine.replace(char, '', 1)
         return True
 
+
 if __name__ == '__main__':
-  print(Solution().canConstruct("aa", "ab"))
+    print(Solution().canConstruct("aa", "ab"))

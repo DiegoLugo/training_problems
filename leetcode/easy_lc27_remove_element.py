@@ -16,8 +16,9 @@ class Solution(object):
                 aux = nums[i]
                 nums[i] = nums[j]
                 nums[j] = aux
-                j+=1
+                j += 1
         return (len(nums)-ocurrences)
 
+
 if __name__ == '__main__':
-    print(Solution().removeElement([0,1,2,2,3,0,4,2], 2))
+    print(Solution().removeElement([0, 1, 2, 2, 3, 0, 4, 2], 2))

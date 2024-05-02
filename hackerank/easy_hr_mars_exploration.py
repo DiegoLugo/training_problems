@@ -9,6 +9,7 @@ def marsExploration(s):
                 changed_chars += 1
     return changed_chars
 
+
 if __name__ == '__main__':
     print(marsExploration("SOSSPSSQSSOR"))
     print(marsExploration("SOSSOSSOS"))

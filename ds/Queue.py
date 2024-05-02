@@ -7,6 +7,8 @@ class Node:
         self.next = None
 
 # FIFO
+
+
 class Queue:
     __head: Node
     __tail: Node
