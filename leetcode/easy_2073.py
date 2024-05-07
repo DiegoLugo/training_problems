@@ -1,3 +1,6 @@
+# 2073. Time Needed to Buy Tickets
+# https://leetcode.com/problems/time-needed-to-buy-tickets/
+
 class Solution(object):
     def timeRequiredToBuy(self, tickets, k):
         """
