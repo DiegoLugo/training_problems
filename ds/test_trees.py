@@ -87,6 +87,11 @@ class TestTree(unittest.TestCase):
             20,
         ])
 
+    def test_bfs(self):
+        self.assertEqual(self.head.breadthFirstSearch(self.head, 45), True)
+        self.assertEqual(self.head.breadthFirstSearch(self.head, 7), True)
+        self.assertEqual(self.head.breadthFirstSearch(self.head, 69), False)
+
 
 if __name__ == '__main__':
     unittest.main()

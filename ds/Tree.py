@@ -43,3 +43,16 @@ class Node():
 
     def traversePostOrder(self, node) -> list:
         return self.walkPostOrder(node, [])
+
+    def breadthFirstSearch(self, node, item) -> bool:
+        queue = [node]
+
+        while len(queue) > 0:
+            next = queue.pop(0)
+            if next.value == item:
+                return True
+            if next.left:
+                queue.append(next.left)
+            if next.right:
+                queue.append(next.right)
+        return False
