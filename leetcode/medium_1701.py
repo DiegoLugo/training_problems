@@ -1,3 +1,5 @@
+#1701. Average Waiting Time
+#https://leetcode.com/problems/average-waiting-time/
 class Solution:
     def averageWaitingTime(self, customers):
         """
